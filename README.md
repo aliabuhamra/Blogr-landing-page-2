@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-KYxt5dG7m)
-- Live Site URL: [Live site URL](https://aliabuhumra.github.io/Base-Apparel-coming-soon-page/)
+- Live Site URL: [Live site URL](https://aliabuhumra.github.io/Blogr-landing-page-2/)
 
 ## My process
 
