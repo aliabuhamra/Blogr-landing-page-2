@@ -1,0 +1,29 @@
+// Header
+.header {
+  & {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 3rem;
+    height: 600px;
+    background: url(../../images/bg-pattern-intro.svg),
+      linear-gradient(135deg, #ff8f71 0%, #ff3e55 90%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 280vw, contain;
+    background-position: -65vw 50%, 0% 0%;
+    border-bottom-left-radius: 100px;
+  }
+
+  &__content-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.header__logo img {
+  display: block;
+  height: clamp(2rem, 5vw, 2.5rem);
+  cursor: pointer;
+  margin-right: 4rem;
+}

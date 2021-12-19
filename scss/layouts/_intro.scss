@@ -1,0 +1,28 @@
+.intro {
+  & {
+    padding-top: 6.75rem;
+  }
+
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__heading {
+    color: white;
+    letter-spacing: -1.08px;
+  }
+
+  &__heading span {
+    @media (max-width: 1020px) {
+      display: block;
+    }
+  }
+
+  &__subheading {
+    color: white;
+    padding-bottom: 3rem;
+  }
+}

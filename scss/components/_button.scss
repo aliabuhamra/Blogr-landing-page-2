@@ -1,0 +1,38 @@
+//Button
+.btn {
+  outline: none;
+  border: none;
+  border-radius: 28px;
+  background: none;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 8.5625rem;
+  height: 48px;
+  transition: all 250ms;
+}
+
+.btn + .btn {
+  margin-left: 0.6rem;
+}
+
+.btn__primary {
+  background-color: white;
+  color: #ff7a85;
+}
+
+.btn__primary:hover {
+  background-color: #ff7a85;
+  color: white;
+}
+
+.btn__secondary {
+  background-color: "";
+  color: white;
+  border: 1px solid white;
+}
+
+.btn__secondary:hover {
+  background-color: white;
+  color: #ff7a85;
+}

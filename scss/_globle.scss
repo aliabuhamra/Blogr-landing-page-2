@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header__content-wrapper,
+.features__content-wrapper {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  cursor: pointer;
+}

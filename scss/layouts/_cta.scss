@@ -1,0 +1,66 @@
+.cta {
+  min-height: 600px;
+  background: url(../../images/bg-pattern-circles.svg),
+    linear-gradient(135deg, #2c2d3f, #3f4164);
+  background-repeat: no-repeat;
+  background-size: 150%, 100%;
+  background-position: center top, 0% 0%;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding-bottom: 3rem;
+}
+
+.cta__content-wrapper {
+  padding: 0 clamp(1.5rem, 10vw, 10.31rem);
+  display: grid;
+  height: inherit;
+}
+
+@media only screen and (min-width: 768px) {
+  .cta__content-wrapper {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.cta__img {
+  min-height: clamp(21rem, 33vw, 31rem);
+  position: relative;
+  top: clamp(-11rem, -5vw, -9rem);
+}
+
+.cta__img img {
+  width: 100%;
+}
+
+.cta__text {
+  text-align: center;
+  margin-top: -11rem;
+}
+
+.cta__heading {
+  letter-spacing: -1.2px;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.cta__subheading {
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .cta {
+    min-height: auto;
+    height: 400px;
+    padding-bottom: 0;
+    background-position: -75% -523px, 0 0;
+    background-size: 75%, 100%;
+  }
+  .cta__img {
+    top: clamp(0rem, -12vw, -2rem);
+  }
+  .cta__text {
+    text-align: start;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,30 @@
+.toggle {
+  & {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    background: url(../images/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  &--active {
+    background: url(../images/icon-close.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  @include mq(medium) {
+    display: none;
+  }
+}
+
+.toggle.active {
+}
+
+.toggle {
+}
