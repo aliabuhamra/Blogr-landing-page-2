@@ -1,7 +1,7 @@
 # Blogr landing page
 
-![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Base-Apparel-coming-soon-page)
-![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Base-Apparel-coming-soon-page)
+![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Blogr-landing-page-2)
+![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Blogr-landing-page-2)
 ![github twiter](https://img.shields.io/twitter/follow/AliAbuhumra?style=social)
 
 ## Welcome! 👋
